@@ -1,0 +1,66 @@
+.campaign-history {
+  font-size: 1rem;
+  padding: 1.85rem 1.5rem;
+}
+.campaign-history h5,
+.campaign-history .h5 {
+  font-size: inherit;
+}
+.campaign-history .svg-inline--fa {
+  margin-right: 0.75rem;
+}
+.campaign-history-timeline {
+  margin-left: 1.85rem;
+}
+.campaign-history-timeline ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 3rem;
+  margin-left: 0.5rem;
+}
+.campaign-history-timeline ul li {
+  padding-left: 3rem;
+  padding-bottom: 3rem;
+  border-left: 1px dashed #ccc;
+}
+.campaign-history-timeline ul li .svg-inline--fa {
+  margin-left: -3.5rem;
+  margin-right: 2.5rem;
+  position: relative;
+}
+.campaign-history-timeline p {
+  font-size: 0.85rem;
+  margin-bottom: 0;
+}
+.campaign-history-timeline .user {
+  font-weight: bold;
+  color: #517ebb;
+}
+.campaign-history-timeline li:last-child,
+.campaign-history-timeline li:first-child {
+  position: relative;
+}
+.campaign-history-timeline li:last-child:first-child {
+  border-left: 0 none;
+}
+.campaign-history-timeline li:last-child:first-child::before {
+  display: none;
+}
+.campaign-history-timeline li:last-child::before {
+  content: "";
+  display: block;
+  height: 100%;
+  border-left: 1px solid #f9fbff;
+  position: absolute;
+  left: -1px;
+}
+.campaign-history-timeline li:first-child::before {
+  content: "";
+  display: block;
+  height: 22px;
+  border-left: 1px solid #f9fbff;
+  position: absolute;
+  left: -1px;
+  top: 0;
+}

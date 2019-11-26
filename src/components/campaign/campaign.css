@@ -1,0 +1,101 @@
+.campaign {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom-color: #e6e8ea;
+  border-top-color: #e6e8ea;
+  border-left: 0 none;
+  border-right: 0 none;
+}
+.campaign.list-group-item {
+  padding: 1rem 3rem;
+}
+.campaign:first-child {
+  border-top: 0 none;
+}
+.campaign-details {
+  color: #999;
+  font-size: 1rem;
+  min-width: 45%;
+}
+.campaign-details h5 {
+  font-size: inherit;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.campaign-title {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+.campaign-list-number {
+  font-size: inherit;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  background-color: #f1f0f3;
+  color: #7494b5;
+  line-height: 24px;
+  border-radius: 50%;
+}
+.camapaign-list-created {
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+.campaign-actions button {
+  width: 60px;
+  margin: 0 10px;
+  border: 0 none;
+  background-color: transparent;
+}
+.campaign-actions button span {
+  display: none;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+.campaign-history-section {
+  border-left: 1px solid #e6e8ea;
+}
+.svg-inline--fa.tx-blue {
+  color: #4a90e9;
+}
+
+/* Active */
+.list-group-item.active {
+  background-color: #f9fbff;
+  border-color: rgba(0, 0, 0, 0.125);
+}
+.list-group-item.active .campaign-details {
+  color: #333;
+}
+.list-group-item.active .campaign-list-number {
+  background-color: #4a90e9;
+  color: #fff;
+}
+.list-group-item.active .camapaign-list-created {
+  color: #333;
+}
+.list-group-item.active .campaign-actions button span {
+  display: block;
+}
+
+.list-group-item.active .campaign-actions .svg-inline--fa.fa-pause-circle {
+  color: #ffcc00;
+}
+.list-group-item.active .campaign-actions .svg-inline--fa.fa-comment {
+  color: #4a90e9;
+}
+.list-group-item.active .campaign-actions .svg-inline--fa.fa-edit {
+  color: #4a90e9;
+}
+.list-group-item.active .campaign-actions .svg-inline--fa.fa-trash {
+  color: #d10212;
+}
+/* End Active */
+
+.svg-inline--fa {
+  color: #cdddeb;
+  text-align: center;
+  display: inline-block;
+}
